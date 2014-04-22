@@ -3,7 +3,7 @@ OMAMovingAnnotations
 
 Moving annotations for iOS MapView.
 
-![Moving annotations demo](https://github.com/opedge/OMAMovingAnnotations/blob/assets/moving_annotations_demo.gif)
+![Moving annotations demo](https://raw.githubusercontent.com/opedge/OMAMovingAnnotations/assets/moving_annotations_demo.gif)
 
 ## How To Get Started
 
