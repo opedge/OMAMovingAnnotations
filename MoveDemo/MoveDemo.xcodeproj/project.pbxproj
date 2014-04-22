@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		163182AF190028B70020593F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 163182AE190028B70020593F /* Foundation.framework */; };
+		163182B1190028B70020593F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 163182B0190028B70020593F /* CoreGraphics.framework */; };
+		163182B3190028B70020593F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 163182B2190028B70020593F /* UIKit.framework */; };
+		163182B9190028B70020593F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 163182B7190028B70020593F /* InfoPlist.strings */; };
+		163182BB190028B70020593F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 163182BA190028B70020593F /* main.m */; };
+		163182BF190028B70020593F /* OMAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 163182BE190028B70020593F /* OMAAppDelegate.m */; };
+		163182C2190028B70020593F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 163182C0190028B70020593F /* Main.storyboard */; };
+		163182C5190028B70020593F /* OMAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 163182C4190028B70020593F /* OMAViewController.m */; };
+		163182C7190028B70020593F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 163182C6190028B70020593F /* Images.xcassets */; };
+		163182E819002A590020593F /* OMAMovePath.m in Sources */ = {isa = PBXBuildFile; fileRef = 163182E719002A590020593F /* OMAMovePath.m */; };
+		163182EB19002D1D0020593F /* NSValue+OMAMovePathSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 163182EA19002D1D0020593F /* NSValue+OMAMovePathSegment.m */; };
+		163182F119002F0A0020593F /* OMAMovingAnnotationsAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 163182F019002F0A0020593F /* OMAMovingAnnotationsAnimator.m */; };
+		1631830119012E8E0020593F /* OMAStructs.m in Sources */ = {isa = PBXBuildFile; fileRef = 1631830019012E8E0020593F /* OMAStructs.m */; };
+		16318304190130880020593F /* OMAMovingAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 16318303190130880020593F /* OMAMovingAnnotation.m */; };
+		1631830619013EAF0020593F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1631830519013EAF0020593F /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		163182AB190028B70020593F /* MoveDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoveDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		163182AE190028B70020593F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		163182B0190028B70020593F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		163182B2190028B70020593F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		163182B6190028B70020593F /* MoveDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MoveDemo-Info.plist"; sourceTree = "<group>"; };
+		163182B8190028B70020593F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		163182BA190028B70020593F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		163182BC190028B70020593F /* MoveDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MoveDemo-Prefix.pch"; sourceTree = "<group>"; };
+		163182BD190028B70020593F /* OMAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OMAAppDelegate.h; sourceTree = "<group>"; };
+		163182BE190028B70020593F /* OMAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OMAAppDelegate.m; sourceTree = "<group>"; };
+		163182C1190028B70020593F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		163182C3190028B70020593F /* OMAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OMAViewController.h; sourceTree = "<group>"; };
+		163182C4190028B70020593F /* OMAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OMAViewController.m; sourceTree = "<group>"; };
+		163182C6190028B70020593F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		163182CD190028B70020593F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		163182E619002A590020593F /* OMAMovePath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMAMovePath.h; sourceTree = "<group>"; };
+		163182E719002A590020593F /* OMAMovePath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMAMovePath.m; sourceTree = "<group>"; };
+		163182E919002D1D0020593F /* NSValue+OMAMovePathSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSValue+OMAMovePathSegment.h"; sourceTree = "<group>"; };
+		163182EA19002D1D0020593F /* NSValue+OMAMovePathSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSValue+OMAMovePathSegment.m"; sourceTree = "<group>"; };
+		163182EF19002F0A0020593F /* OMAMovingAnnotationsAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMAMovingAnnotationsAnimator.h; sourceTree = "<group>"; };
+		163182F019002F0A0020593F /* OMAMovingAnnotationsAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMAMovingAnnotationsAnimator.m; sourceTree = "<group>"; };
+		163182FF19012E8E0020593F /* OMAStructs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMAStructs.h; sourceTree = "<group>"; };
+		1631830019012E8E0020593F /* OMAStructs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMAStructs.m; sourceTree = "<group>"; };
+		16318302190130880020593F /* OMAMovingAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMAMovingAnnotation.h; sourceTree = "<group>"; };
+		16318303190130880020593F /* OMAMovingAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMAMovingAnnotation.m; sourceTree = "<group>"; };
+		1631830519013EAF0020593F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		1698F5CB1906B119008B418E /* OMAMovingAnnotations.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OMAMovingAnnotations.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		163182A8190028B70020593F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				163182B1190028B70020593F /* CoreGraphics.framework in Frameworks */,
+				163182B3190028B70020593F /* UIKit.framework in Frameworks */,
+				1631830619013EAF0020593F /* MapKit.framework in Frameworks */,
+				163182AF190028B70020593F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		163182A2190028B70020593F = {
+			isa = PBXGroup;
+			children = (
+				163182E5190028F60020593F /* Classes */,
+				163182B4190028B70020593F /* MoveDemo */,
+				163182AD190028B70020593F /* Frameworks */,
+				163182AC190028B70020593F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		163182AC190028B70020593F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				163182AB190028B70020593F /* MoveDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		163182AD190028B70020593F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1631830519013EAF0020593F /* MapKit.framework */,
+				163182AE190028B70020593F /* Foundation.framework */,
+				163182B0190028B70020593F /* CoreGraphics.framework */,
+				163182B2190028B70020593F /* UIKit.framework */,
+				163182CD190028B70020593F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		163182B4190028B70020593F /* MoveDemo */ = {
+			isa = PBXGroup;
+			children = (
+				163182BD190028B70020593F /* OMAAppDelegate.h */,
+				163182BE190028B70020593F /* OMAAppDelegate.m */,
+				163182C0190028B70020593F /* Main.storyboard */,
+				163182C3190028B70020593F /* OMAViewController.h */,
+				163182C4190028B70020593F /* OMAViewController.m */,
+				163182C6190028B70020593F /* Images.xcassets */,
+				163182B5190028B70020593F /* Supporting Files */,
+			);
+			path = MoveDemo;
+			sourceTree = "<group>";
+		};
+		163182B5190028B70020593F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				163182B6190028B70020593F /* MoveDemo-Info.plist */,
+				163182B7190028B70020593F /* InfoPlist.strings */,
+				163182BA190028B70020593F /* main.m */,
+				163182BC190028B70020593F /* MoveDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		163182E5190028F60020593F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1698F5CB1906B119008B418E /* OMAMovingAnnotations.h */,
+				16318302190130880020593F /* OMAMovingAnnotation.h */,
+				16318303190130880020593F /* OMAMovingAnnotation.m */,
+				163182E619002A590020593F /* OMAMovePath.h */,
+				163182E719002A590020593F /* OMAMovePath.m */,
+				163182E919002D1D0020593F /* NSValue+OMAMovePathSegment.h */,
+				163182EA19002D1D0020593F /* NSValue+OMAMovePathSegment.m */,
+				163182EF19002F0A0020593F /* OMAMovingAnnotationsAnimator.h */,
+				163182F019002F0A0020593F /* OMAMovingAnnotationsAnimator.m */,
+				163182FF19012E8E0020593F /* OMAStructs.h */,
+				1631830019012E8E0020593F /* OMAStructs.m */,
+			);
+			name = Classes;
+			path = ../Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		163182AA190028B70020593F /* MoveDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 163182DD190028B70020593F /* Build configuration list for PBXNativeTarget "MoveDemo" */;
+			buildPhases = (
+				163182A7190028B70020593F /* Sources */,
+				163182A8190028B70020593F /* Frameworks */,
+				163182A9190028B70020593F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoveDemo;
+			productName = MoveDemo;
+			productReference = 163182AB190028B70020593F /* MoveDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		163182A3190028B70020593F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = OMA;
+				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					163182AA190028B70020593F = {
+						SystemCapabilities = {
+							com.apple.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 163182A6190028B70020593F /* Build configuration list for PBXProject "MoveDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 163182A2190028B70020593F;
+			productRefGroup = 163182AC190028B70020593F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				163182AA190028B70020593F /* MoveDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		163182A9190028B70020593F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				163182C7190028B70020593F /* Images.xcassets in Resources */,
+				163182B9190028B70020593F /* InfoPlist.strings in Resources */,
+				163182C2190028B70020593F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		163182A7190028B70020593F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				163182BF190028B70020593F /* OMAAppDelegate.m in Sources */,
+				16318304190130880020593F /* OMAMovingAnnotation.m in Sources */,
+				163182E819002A590020593F /* OMAMovePath.m in Sources */,
+				163182EB19002D1D0020593F /* NSValue+OMAMovePathSegment.m in Sources */,
+				1631830119012E8E0020593F /* OMAStructs.m in Sources */,
+				163182F119002F0A0020593F /* OMAMovingAnnotationsAnimator.m in Sources */,
+				163182BB190028B70020593F /* main.m in Sources */,
+				163182C5190028B70020593F /* OMAViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		163182B7190028B70020593F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				163182B8190028B70020593F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		163182C0190028B70020593F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				163182C1190028B70020593F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		163182DB190028B70020593F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		163182DC190028B70020593F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		163182DE190028B70020593F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MoveDemo/MoveDemo-Prefix.pch";
+				INFOPLIST_FILE = "MoveDemo/MoveDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		163182DF190028B70020593F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MoveDemo/MoveDemo-Prefix.pch";
+				INFOPLIST_FILE = "MoveDemo/MoveDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		163182A6190028B70020593F /* Build configuration list for PBXProject "MoveDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163182DB190028B70020593F /* Debug */,
+				163182DC190028B70020593F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		163182DD190028B70020593F /* Build configuration list for PBXNativeTarget "MoveDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163182DE190028B70020593F /* Debug */,
+				163182DF190028B70020593F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 163182A3190028B70020593F /* Project object */;
+}
